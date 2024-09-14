@@ -1,6 +1,6 @@
 # TiROD: Tiny Robotics Dataset and Benchmark for Continual Object Detection
 
-![Dataset Logo](images/TIROD.jpg)
+![Dataset Logo](images/TiROD.png)
 
 ---
 
