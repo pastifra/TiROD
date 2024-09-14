@@ -28,63 +28,65 @@ Moreover, by capturing the data with a low-cost sensor of the Tiny Robot, TiROD 
 | **Download Link**| [Download Dataset](coming_soon)                          |
 
 The distribution of labels across different tasks can be observed in the following figure.
-![Datastats](images/datastats.pdf)
----
-
-## 🔍 Features
-
-- **Multiple ** from various sources.
-- **Cleaned and pre-processed** for immediate use.
-- Contains **real-world use cases** in machine learning.
-- High-quality metadata and labels for every data point.
-
+![Datastats](images/dataset.pdf)
 ---
 
 ## 💻 Preview
-
-### Image Example 1
-![Sample Image 1](https://via.placeholder.com/400x200)
-
-### Image Example 2
-![Sample Image 2](https://via.placeholder.com/400x200)
+![Examples](images/TiROD_images.pdf)
 
 ---
 
 ## 📹 Demo Video
 
-Check out the demo video of the dataset in use:
+Check out the demo video of the dataset:
 
-[![Watch Video](https://img.youtube.com/vi/VIDEO_ID/0.jpg)](https://www.youtube.com/watch?v=VIDEO_ID)
+[![Watch Video](coming-soon)
 
 ---
 
 ## 🧑‍💻 Usage Instructions
-
-To use this dataset, follow the steps below:
-
-1. Download the dataset from the [link provided](https://example.com/download).
-2. Import the dataset into your preferred programming language or tool.
-3. Use the following code snippet to load the dataset in Python:
-
-    ```python
-    import pandas as pd
-    dataset = pd.read_csv("path/to/dataset.csv")
-    print(dataset.head())
-    ```
-
-4. For detailed documentation, check out the [documentation page](https://example.com/docs).
+Coming soon
 
 ---
+
+## Benchmark
+Results for the implementation of **NanoDet Plus**
+
+| Method               | Ω ↑  | RSD ↑ | RPD ↑ |
+|----------------------|------|-------|-------|
+| Fine-Tuning           | 0.19 | 0.19  | 0.99  |
+| LWF                  | 0.24 | 0.27  | 0.95  |
+| IncDet               | 0.20 | 0.27  | 0.99  |
+| SID                  | 0.27 | 0.44  | 0.86  |
+| Replay               | 0.63 | 0.70  | 0.95  |
+| Temporal Replay      | 0.48 | 0.54  | 0.96  |
+| K-Means Replay       | **0.65** | **0.75** | **0.99** |
+| Latent Distillation  | 0.26 | 0.38  | 0.69  |
+| Latent Replay        | 0.62 | 0.67  | 0.91  |
+| **Joint Training [mAP]** | **0.66** |       |       |
+
+To replicate the results, clone the [Repository](coming_soon)  and follow the instructions of the Readme.md 
 
 ## 📂 Folder Structure
 
 ```plaintext
-dataset/
-├── images/
-│   ├── image1.png
-│   ├── image2.png
-├── data/
-│   ├── dataset.csv
-│   └── metadata.json
+TiROD/
+├── Domain1/
+│   ├── High
+|       ├── annotations
+|           ├── train.json
+|           ├── val.json
+|           ├── test.json
+|       ├── images
+|           ├── train
+|               ├── frame1.png
+|               ├── ...
+|           ├── val
+|               ├── ...
+|           ├── test
+|               ├── ...
+│   ├── Low
+|       ├── ...
+├── ...
 └── docs/
     └── README.md
