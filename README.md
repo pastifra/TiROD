@@ -28,11 +28,11 @@ Moreover, by capturing the data with a low-cost sensor of the Tiny Robot, TiROD 
 | **Download Link**| [Download Dataset](coming_soon)                          |
 
 The distribution of labels across different tasks can be observed in the following figure.
-![Datastats](images/dataset.pdf)
+![Datastats](images/dataset.png)
 ---
 
 ## 💻 Preview
-![Examples](images/TiROD_images.pdf)
+![Examples](images/TiROD_images.png)
 
 ---
 
