@@ -69,7 +69,7 @@ To replicate the results, clone the [Repository](coming_soon)  and follow the in
 
 ## 📂 Folder Structure
 
-```plaintext
+```bash
 TiROD/
 ├── Domain1/
 │   ├── High
