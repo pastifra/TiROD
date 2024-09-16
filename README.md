@@ -63,7 +63,7 @@ Results for the implementation of **NanoDet Plus**
 | K-Means Replay       | **0.65** | **0.75** | **0.99** |
 | Latent Distillation  | 0.26 | 0.38  | 0.69  |
 | Latent Replay        | 0.62 | 0.67  | 0.91  |
-| **Joint Training [mAP]** | **0.66** |       |       |
+| **Joint Training [mAP]** |  **0.66 %**  |
 
 To replicate the results, clone the [Repository](coming_soon)  and follow the instructions of the Readme.md 
 
@@ -73,20 +73,20 @@ To replicate the results, clone the [Repository](coming_soon)  and follow the in
 TiROD/
 ├── Domain1/
 │   ├── High
-|       ├── annotations
-|           ├── train.json
-|           ├── val.json
-|           ├── test.json
-|       ├── images
-|           ├── train
-|               ├── frame1.png
-|               ├── ...
-|           ├── val
-|               ├── ...
-|           ├── test
-|               ├── ...
+│   │   ├── annotations
+│   │   │   ├── train.json
+│   │   │   ├── val.json
+│   │   │   ├── test.json
+│   │   ├── images
+│   │   │   ├── train
+│   │   │   │   ├── frame1.png
+│   │   │   │   ├── ...
+│   │   │   ├── val
+│   │   │   │   ├── ...
+│   │   │   ├── test
+│   │   │   │   ├── ...
 │   ├── Low
-|       ├── ...
+│   │   ├── ...
 ├── ...
 └── docs/
     └── README.md
