@@ -18,6 +18,11 @@ In this work, we introduce a novel benchmark to evaluate the continual learning 
 -  moreover, we publish the data and the code to replicate the results to foster continuous advancements in this field.
 Our benchmark results indicate key challenges that must be addressed to advance the development of robust and efficient object detection systems for tiny robotics.
 
+## 🌐 Useful Links
+* [Paper Code](https://github.com/pastifra/TiROD_code)
+* [Data Download](soon)
+* [Paper PDF](soon) 
+
 ## 📹 Dataset Video
 Check out the demo video of the dataset (click the image):
 
