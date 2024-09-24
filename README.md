@@ -46,7 +46,6 @@ The distribution of labels across different tasks can be observed in the followi
 <div align="center">
 <img src="images/dataset.png" width="700"/>
 </div>
----
 
 ## 💻 Data Preview
 Here are some example frames from each of the 10 CL tasks:
