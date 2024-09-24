@@ -43,7 +43,9 @@ The distribution of labels across different tasks can be observed in the followi
 ## 💻 Data Preview
 Here are some example frames from each of the 10 CL tasks:
 
-![Examples](images/TiROD_images.png)
+<div align="center">
+<img src="images/TiROD_images.png" width="600"/>
+</div>
 
 ## 🧑‍💻 Download the data
 
@@ -117,10 +119,10 @@ If you find this project useful in your research, please add a star and cite us 
   year={2024},
 }
 ```
-https://github.com/pastifra/Continual_Nanodet
+[https://github.com/pastifra/Continual_Nanodet](https://github.com/pastifra/Continual_Nanodet)
 
 ## Thanks
 
-https://github.com/RangiLyu/nanodet
+[https://github.com/RangiLyu/nanodet](https://github.com/pastifra/Continual_Nanodet)
 
 
