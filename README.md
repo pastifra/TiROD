@@ -54,8 +54,8 @@ Download the dataset from this [link](coming-soon)
 📂 Folder Structure:
 
 ```
-TiROD/
-├── Domain1/
+TiROD
+├── Domain1
 │   ├── High
 │   │   ├── annotations
 │   │   │   ├── train.json
@@ -72,7 +72,7 @@ TiROD/
 │   ├── Low
 │   │   ├── ...
 ├── ...
-└── docs/
+└── docs
     └── README.md
 ```
 
