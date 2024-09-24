@@ -44,7 +44,7 @@ Check out the demo video of the dataset (click the image):
 
 The distribution of labels across different tasks can be observed in the following figure.
 <div align="center">
-<img src="images/datastats.png" width="600"/>
+<img src="images/dataset.png" width="700"/>
 </div>
 ---
 
