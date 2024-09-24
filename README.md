@@ -53,11 +53,7 @@ Here are some example frames from each of the 10 CL tasks:
 <img src="images/TiROD_images.png" width="600"/>
 </div>
 
-## 🧑‍💻 Download the data
-
-Download the dataset from this [link](coming-soon)
-
-📂 Folder Structure:
+## 📂 Folder Structure:
 
 ```
 TiROD
