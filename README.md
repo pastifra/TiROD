@@ -21,9 +21,7 @@ Our benchmark results indicate key challenges that must be addressed to advance 
 ## 📹 Dataset Video
 Check out the demo video of the dataset:
 
-<div align="center">
-    <iframe width="560" height="315" src="https://www.youtube.com/watch?v=e76m3ol1i4I" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</div>
+[![Watch the video](https://img.youtube.com/vi/e76m3ol1i4I/0.jpg)](https://www.youtube.com/watch?v=e76m3ol1i4I)
 
 ## 📊 Dataset Information
 
