@@ -2,11 +2,10 @@
 
 <div align="center">
 
-<img src="imgs/TiROD.png" width="400"/>
+<img src="imagess/TiROD.png" width="400"/>
 
 </div>
-# TiROD: Tiny Robotics Object Detection Dataset and Benchmark
-**A dataset designed to benchmark Continual Object Detection in Tiny Robotics applications**
+
 
 
 ---
