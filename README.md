@@ -2,7 +2,7 @@
 
 <div align="center">
 
-<img src="imagess/TiROD.png" width="400"/>
+<img src="images/TiROD.png" width="400"/>
 
 </div>
 
