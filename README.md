@@ -43,14 +43,16 @@ Check out the demo video of the dataset (click the image):
 | **Download Link**| [Download Dataset](coming_soon)                          |
 
 The distribution of labels across different tasks can be observed in the following figure.
-![Datastats](images/dataset.png)
+<div align="center">
+<img src="images/datastats.png" width="600"/>
+</div>
 ---
 
 ## 💻 Data Preview
 Here are some example frames from each of the 10 CL tasks:
 
 <div align="center">
-<img src="images/TiROD_images.png" width="600"/>
+<img src="images/TiROD_images.png" width="900"/>
 </div>
 
 ## 📂 Folder Structure:
