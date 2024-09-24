@@ -20,7 +20,7 @@ Our benchmark results indicate key challenges that must be addressed to advance 
 
 ## 🌐 Links
 * [Paper Code](https://github.com/pastifra/TiROD_code)
-* [Data Download](soon)
+* [Data Download](https://zenodo.org/records/13834550)
 * [Paper PDF](soon)
 * [Video](https://www.youtube.com/watch?v=e76m3ol1i4I)
 
@@ -40,7 +40,7 @@ Check out the demo video of the dataset (click the image):
 | **Number of BBoxes** | 17.9K                                                |
 | **Data Format**  | png                                                      |
 | **Annotations**  | COCO format                                              |
-| **Download Link**| [Download Dataset](coming_soon)                          |
+| **Download Link**| [Download Dataset](https://zenodo.org/records/13834550)                          |
 
 The distribution of labels across different tasks can be observed in the following figure.
 <div align="center">
