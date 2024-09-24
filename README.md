@@ -1,14 +1,8 @@
 # TiROD: Tiny Robotics Dataset and Benchmark for Continual Object Detection
 
 <div align="center">
-
 <img src="images/TiROD.png" width="400"/>
-
 </div>
-
-
-
----
 
 ## Abstract
 This is the official website for the TiROD dataset and benchmark.
@@ -25,7 +19,7 @@ In this work, we introduce a novel benchmark to evaluate the continual learning 
 Our benchmark results indicate key challenges that must be addressed to advance the development of robust and efficient object detection systems for tiny robotics.
 
 ## 📹 Dataset Video
-Check out the demo video of the dataset:
+Check out the demo video of the dataset (click the image):
 
 [![Watch the video](https://img.youtube.com/vi/e76m3ol1i4I/0.jpg)](https://www.youtube.com/watch?v=e76m3ol1i4I)
 
@@ -79,10 +73,6 @@ TiROD/
 └── docs/
     └── README.md
 ```
-
-## 
-
----
 
 ## TiROD Benchmark results
 
