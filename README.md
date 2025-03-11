@@ -96,7 +96,18 @@ Results for the implementation of **NanoDet Plus**
 | Latent Replay        | 0.62 | 0.67  | 0.91  |
 | **Joint Training [mAP]** |  **0.66 %**  |
 
+Results for **YOLOv8 nano**
+| Method               | Final mAP ↑  | RSD ↑ | RPD ↑ |
+|----------------------|------|-------|-------|
+| Fine-Tuning           | 15.9% | 0.19  | 1.00 |
+| SID                  | 17.1% | 0.24  | 1.00 |
+| Replay               | 40.7% | 0.70  | 0.95  |
+| K-Means Replay       | **41.3** | **0.75** | **0.99** |
+| **Joint Training [mAP]** |  **59%**  |
+
 To replicate the results, clone this [repository](https://github.com/pastifra/TiROD_code) and follow the instructions of the Readme.md
+
+For the YOLOv8 nano implementation, use this repository [repository](https://github.com/riccardodmts/TiROD_YOLO)
 
 ## Citation
 
