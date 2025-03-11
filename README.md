@@ -85,16 +85,17 @@ Results for the implementation of **NanoDet Plus**
 
 | Method               | Ω ↑  | RSD ↑ | RPD ↑ |
 |----------------------|------|-------|-------|
-| Fine-Tuning           | 0.19 | 0.19  | 0.99  |
-| LWF                  | 0.24 | 0.27  | 0.95  |
-| IncDet               | 0.20 | 0.27  | 0.99  |
-| SID                  | 0.27 | 0.44  | 0.86  |
-| Replay               | 0.63 | 0.70  | 0.95  |
-| Temporal Replay      | 0.48 | 0.54  | 0.96  |
-| K-Means Replay       | **0.65** | **0.75** | **0.99** |
-| Latent Distillation  | 0.26 | 0.38  | 0.69  |
-| Latent Replay        | 0.62 | 0.67  | 0.91  |
-| **Joint Training [mAP]** |  **0.66 %**  |
+| Fine-Tuning           | 10.7 | 0.17  | 0.97  |
+| LWF                  | 12.6 | 0.27  | 0.98  |
+| IncDet               | 12.9 | 0.18  | 0.91  |
+| SID                  | 16.4 | 0.41  | 0.84  |
+| Replay               | 37.8 | 0.70  | 0.74  |
+| Temporal Replay      | 25.9 | 0.50  | 0.96  |
+| K-Means Replay       | **42.2** | **0.75** | **0.95** |
+| Latent Distillation  | 14.5 | 0.38  | 0.76  |
+| Latent Replay        | 36.5 | 0.65  | 0.90  |
+| Latent K-Means Replay    | 37.8 | 0.68  | 0.90  |
+| **Joint Training [mAP]** |  **63%**  |
 
 Results for **YOLOv8 nano**
 | Method               | Final mAP ↑  | RSD ↑ | RPD ↑ |
