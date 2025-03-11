@@ -83,7 +83,7 @@ TiROD
 
 Results for the implementation of **NanoDet Plus**
 
-| Method               | Ω ↑  | RSD ↑ | RPD ↑ |
+| Method               | Final mAP ↑  | RSD ↑ | RPD ↑ |
 |----------------------|------|-------|-------|
 | Fine-Tuning           | 10.7 | 0.17  | 0.97  |
 | LWF                  | 12.6 | 0.27  | 0.98  |
