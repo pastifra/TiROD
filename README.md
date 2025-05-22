@@ -98,6 +98,7 @@ Results for the implementation of **NanoDet Plus**
 | **Joint Training [mAP]** |  **63%**  |
 
 Results for **YOLOv8 nano**
+
 | Method               | Final mAP ↑  | RSD ↑ | RPD ↑ |
 |----------------------|------|-------|-------|
 | Fine-Tuning           | 15.9% | 0.19  | 1.00 |
