@@ -24,23 +24,17 @@ Our benchmark results indicate key challenges that must be addressed to advance 
 * [Paper PDF](https://arxiv.org/pdf/2409.16215)
 * [Video](https://www.youtube.com/watch?v=e76m3ol1i4I)
 
-## 📹 Dataset Video
-Check out the demo video of the dataset (click the image):
-
-[![Watch the video](images/youtube.png)](https://www.youtube.com/watch?v=e76m3ol1i4I)
-
 ## 📊 Dataset Information
 
 | Attribute        | Description                                              |
 |------------------|----------------------------------------------------------|
 | **Name**         | TiROD                                                    |
-| **Size**         | 2 GB                                                     |
-| **Number of Images** | 6.7K                                                 |
+| **Size**         | 7 GB                                                     |
+| **Number of Images** | 17.4K                                                |
 | **Number of Classes** | 13                                                  |
-| **Number of BBoxes** | 17.9K                                                |
 | **Data Format**  | png                                                      |
 | **Annotations**  | COCO format                                              |
-| **Download Link**| [Download Dataset](https://zenodo.org/records/13834550)                          |
+| **Download Link**| [Download Dataset](https://zenodo.org/records/13834550)  |
 
 The distribution of labels across different tasks can be observed in the following figure.
 <div align="center">
@@ -95,17 +89,11 @@ Results for the implementation of **NanoDet Plus**
 | Latent Distillation  | 14.5 | 0.38  | 0.76  |
 | Latent Replay        | 36.5 | 0.65  | 0.90  |
 | Latent K-Means Replay    | 37.8 | 0.68  | 0.90  |
-| **Joint Training [mAP]** |  **63%**  |
+| **Cumlative Training [mAP]** |  **63%**  |
 
 Results for **YOLOv8 nano**
 
-| Method               | Final mAP ↑  | RSD ↑ | RPD ↑ |
-|----------------------|------|-------|-------|
-| Fine-Tuning           | 15.9% | 0.19  | 1.00 |
-| SID                  | 17.1% | 0.24  | 1.00 |
-| Replay               | 40.7% | 0.70  | 0.95  |
-| K-Means Replay       | **41.3** | **0.75** | **0.99** |
-| **Joint Training [mAP]** |  **59%**  |
+
 
 To replicate the results, clone this [repository](https://github.com/pastifra/TiROD_code) and follow the instructions of the Readme.md
 
