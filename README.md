@@ -29,8 +29,8 @@ Our benchmark results indicate key challenges that must be addressed to advance 
 | Attribute        | Description                                              |
 |------------------|----------------------------------------------------------|
 | **Name**         | TiROD                                                    |
-| **Size**         | 7 GB                                                     |
 | **Number of Images** | 17.4K                                                |
+| **Images Size** |    640x480x3                                              |
 | **Number of Classes** | 13                                                  |
 | **Data Format**  | png                                                      |
 | **Annotations**  | COCO format                                              |
@@ -73,9 +73,7 @@ TiROD
     └── README.md
 ```
 
-## TiROD Benchmark results
-
-Results for the implementation of **NanoDet Plus**
+## TiROD Cross-Domain Benchmark results
 
 | Method               | Final mAP ↑  | RSD ↑ | RPD ↑ |
 |----------------------|------|-------|-------|
@@ -85,29 +83,44 @@ Results for the implementation of **NanoDet Plus**
 | SID                  | 16.4 | 0.41  | 0.84  |
 | Replay               | 37.8 | 0.70  | 0.74  |
 | Temporal Replay      | 25.9 | 0.50  | 0.96  |
-| K-Means Replay       | **42.2** | **0.75** | **0.95** |
+| K-Means Replay       | **42.5** | **0.77** | **0.95** |
 | Latent Distillation  | 14.5 | 0.38  | 0.76  |
 | Latent Replay        | 36.5 | 0.65  | 0.90  |
 | Latent K-Means Replay    | 37.8 | 0.68  | 0.90  |
 | **Cumlative Training [mAP]** |  **63%**  |
 
-Results for **YOLOv8 nano**
+
+## TiROD Intra-Domain Benchmark results
+
+| Method               | Final mAP ↑  | RSD ↑ | RPD ↑ |
+|----------------------|------|-------|-------|
+| Fine-Tuning           | 47.0 | 0.83  | 0.95  |
+| LWF                  | 49.0 | 0.83  | 0.94  |
+| IncDet               | 45.9 | 0.82  | 0.95  |
+| SID                  | 49.2 | 0.76  | 0.89  |
+| Replay               | **66.1** | **0.96**  | **0.96**  |
+| Temporal Replay      | 60.3 | 0.91  | 0.94  |
+| K-Means Replay       | 66.0 | 0.96 | 0.96 |
+| Latent Distillation  | 44.1 | 0.71  | 0.86  |
+| Latent Replay        | 62.5 | 0.93  | 0.91  |
+| Latent K-Means Replay    | 62.6 | 0.94  | 0.94  |
+| **Cumlative Training [mAP]** |  **70.6 %**  |
 
 
 
 To replicate the results, clone this [repository](https://github.com/pastifra/TiROD_code) and follow the instructions of the Readme.md
 
-For the YOLOv8 nano implementation, use this repository [repository](https://github.com/riccardodmts/TiROD_YOLO)
+There is also a YOLOv8 nano implementation, you can find it in this repository [repository](https://github.com/riccardodmts/TiROD_YOLO)
 
 ## Citation
 
 If you find this project useful in your research, please add a star and cite us 😊 
 
 ```BibTeX
-@misc{pasti2024tinyroboticsdatasetbenchmark,
-      title={Tiny Robotics Dataset and Benchmark for Continual Object Detection}, 
+@misc{pasti2026tirod,
+      title={TiROD: Tiny Robotics Dataset and Benchmark for Continual Object Detection}, 
       author={Francesco Pasti and Riccardo De Monte and Davide Dalle Pezze and Gian Antonio Susto and Nicola Bellotto},
-      year={2024},
+      year={2026},
       eprint={2409.16215},
       archivePrefix={arXiv},
       primaryClass={cs.RO},
