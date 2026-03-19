@@ -20,9 +20,8 @@ Our benchmark results indicate key challenges that must be addressed to advance 
 
 ## 🌐 Links
 * [Paper Code](https://github.com/pastifra/TiROD_code)
-* [Data Download](https://zenodo.org/records/13834550)
+* [Data Download](https://zenodo.org/records/19102416)
 * [Paper PDF](https://arxiv.org/pdf/2409.16215)
-* [Video](https://www.youtube.com/watch?v=e76m3ol1i4I)
 
 ## 📊 Dataset Information
 
