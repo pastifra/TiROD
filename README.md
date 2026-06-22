@@ -118,7 +118,7 @@ To ensure compatibility with the existing benchmark, contributed datasets should
 * **Sequential Data:** Data should ideally be sequentially sampled (video frames) to allow for temporal and continual learning analysis.
 * **Hardware Specs:** You must be able to provide basic specifications of your setup (e.g., Robot platform, Camera model, FPS). 
 
-👉 **[Submit your dataset via our Contribution Form](#)** *(https://forms.gle/QCSisZQaCepJgLf97)*
+👉 [Submit your dataset via our Contribution Form](https://forms.gle/QCSisZQaCepJgLf97)
 
 All accepted contributions will be integrated into the TiROD benchmark, and contributors will be fully credited on this repository and the project website. 
 Additional sensor modalities (like IMU or Wheel Odometry), are also welcome!
