@@ -105,11 +105,23 @@ TiROD
 | Latent K-Means Replay    | 62.6 | 0.94  | 0.94  |
 | **Cumlative Training [mAP]** |  **70.6 %**  |
 
-
-
 To replicate the results, clone this [repository](https://github.com/pastifra/TiROD_code) and follow the instructions of the Readme.md
-
 There is also a YOLOv8 nano implementation, you can find it in this repository [repository](https://github.com/riccardodmts/TiROD_YOLO)
+
+## 🤝 Contribute to TiROD
+We actively encourage the community to expand the dataset/benchmark. If you are working on tiny robotics and have collected object detection data in new domains, we would love to integrate it into the TiROD benchmark!
+
+### How to Contribute
+
+To ensure compatibility with the existing benchmark, contributed datasets should meet the following requirements:
+* **Annotations:** Bounding boxes must be provided in standard **COCO JSON format**.
+* **Sequential Data:** Data should ideally be sequentially sampled (video frames) to allow for temporal and continual learning analysis.
+* **Hardware Specs:** You must be able to provide basic specifications of your setup (e.g., Robot platform, Camera model, FPS). 
+
+👉 **[Submit your dataset via our Contribution Form](#)** *(https://forms.gle/QCSisZQaCepJgLf97)*
+
+All accepted contributions will be integrated into the TiROD benchmark, and contributors will be fully credited on this repository and the project website. 
+Additional sensor modalities (like IMU or Wheel Odometry), are also welcome!
 
 ## Citation
 
